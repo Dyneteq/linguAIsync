@@ -149,4 +149,15 @@ Add to `package.json`:
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
+
+## 🌟 Please check my other projects!
+
+- **[tududi](https://tududi.com)** - Productivity made simple
+- **[Reconya](https://reconya.com)** - Network reconnaissance and asset discovery tool
+- **[BreachHarbor](https://breachharbor.com)** - Cybersecurity suite for digital asset protection
+- **[Hevetra](https://hevetra.com)** - Digital tracking for child health milestones
+
+---
+
+README created by [Chris Veleris](https://github.com/chrisvel) for `linguAIsync`.
