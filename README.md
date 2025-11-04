@@ -110,7 +110,19 @@ await syncLanguages(config, ['es', 'fr']);
 
 ## Supported Languages
 
-Arabic (ar), Bulgarian (bg), Danish (da), German (de), Greek (el), Spanish (es), Finnish (fi), French (fr), Indonesian (id), Italian (it), Japanese (jp), Korean (ko), Dutch (nl), Norwegian (no), Polish (pl), Portuguese (pt), Romanian (ro), Russian (ru), Slovenian (sl), Swedish (sv), Turkish (tr), Ukrainian (ua), Vietnamese (vi), Chinese (zh)
+| Language | Code | Language | Code | Language | Code |
+|----------|------|----------|------|----------|------|
+| Arabic | ar | German | de | Japanese | jp |
+| Bulgarian | bg | Greek | el | Korean | ko |
+| Chinese | zh | Indonesian | id | Dutch | nl |
+| Danish | da | Italian | it | Norwegian | no |
+| Spanish | es | Polish | pl | Ukrainian | ua |
+| Finnish | fi | Portuguese | pt | Vietnamese | vi |
+| French | fr | Romanian | ro | | |
+| | | Russian | ru | | |
+| | | Slovenian | sl | | |
+| | | Swedish | sv | | |
+| | | Turkish | tr | | |
 
 ## NPM Scripts
 
