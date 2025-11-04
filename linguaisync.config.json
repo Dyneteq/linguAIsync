@@ -1,0 +1,9 @@
+{
+  "localesDir": "./public/locales",
+  "baseLanguage": "en",
+  "translationFiles": ["translation.json"],
+  "batchSize": 20,
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "maxTokens": 2000
+}

@@ -1,0 +1,35 @@
+# Source control
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation (keep README.md)
+docs/
+examples/
+test/
+tests/
+
+# Config files (keep example)
+mt-sync.config.js
+.mt-sync.config.js
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Development
+.editorconfig
+.eslintrc*
+.prettierrc*
+tsconfig.json
+
+# Misc
+*.log
+.DS_Store

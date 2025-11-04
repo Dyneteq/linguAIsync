@@ -1,0 +1,52 @@
+{
+  "name": "linguaisync",
+  "version": "1.0.0",
+  "description": "AI-powered translation synchronization tool using OpenAI to keep translation files in sync",
+  "main": "lib/index.js",
+  "bin": {
+    "linguaisync": "bin/sync-translations.js"
+  },
+  "scripts": {
+    "prepublishOnly": "echo 'Running pre-publish checks...'",
+    "test": "node bin/sync-translations.js --help"
+  },
+  "keywords": [
+    "translation",
+    "i18n",
+    "internationalization",
+    "localization",
+    "l10n",
+    "openai",
+    "ai",
+    "gpt",
+    "sync",
+    "multilingual",
+    "translate",
+    "auto-translate",
+    "linguaisync",
+    "lingua"
+  ],
+  "author": "MT-Sync Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/linguaisync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/linguaisync/issues"
+  },
+  "homepage": "https://github.com/yourusername/linguaisync#readme",
+  "files": [
+    "bin/",
+    "lib/",
+    "LICENSE",
+    "README.md",
+    "linguaisync.config.example.js"
+  ]
+}
