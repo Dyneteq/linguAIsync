@@ -2,6 +2,8 @@
 
 AI-powered translation synchronization tool. Automatically detects missing translations and uses OpenAI to translate them while preserving formatting and placeholders.
 
+![linguAIsync Banner](screenshots/banner.png)
+
 ## Installation
 
 ```bash
