@@ -1,6 +1,6 @@
 {
   "name": "linguaisync",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "AI-powered translation synchronization tool using OpenAI to keep translation files in sync",
   "main": "lib/index.js",
   "bin": {
