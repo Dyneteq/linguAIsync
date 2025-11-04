@@ -39,3 +39,6 @@ tmp/
 # User configs (keep examples)
 mt-sync.config.js
 .mt-sync.config.js
+
+# Translation backups
+*.json.bak

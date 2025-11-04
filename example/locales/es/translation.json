@@ -3,6 +3,7 @@
     "hello": "Hola"
   },
   "actions": {
-    "save": "Guardar"
+    "save": "Guardar",
+    "cancel": "Cancelar"
   }
 }
