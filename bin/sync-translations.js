@@ -44,6 +44,35 @@ function loadConfig(configPath) {
 }
 
 /**
+ * Display banner
+ */
+function showBanner() {
+    // Clear terminal
+    console.clear();
+
+    console.log('\n');
+    console.log('╔═══════════════════════════════════════════════════════════╗');
+    console.log('║                                                           ║');
+    console.log('║           _ _                   _    ___                  ║');
+    console.log('║          | (_)_ _  __ _ _  _   /_\\  |_ _|                 ║');
+    console.log('║          | | | \' \\/ _` | || | / _ \\  | |                  ║');
+    console.log('║          |_|_|_||_\\__, |\\_,_|/_/ \\_\\|___|                 ║');
+    console.log('║                   |___/                                   ║');
+    console.log('║                       sync                                ║');
+    console.log('║                                                           ║');
+    console.log('║          🤖 AI-Powered Translation Synchronization        ║');
+    console.log('║                                                           ║');
+    console.log('╚═══════════════════════════════════════════════════════════╝');
+    console.log('');
+    console.log('  Made with ❤️  by Chris Veleris');
+    console.log('');
+    console.log('  💡 Do you want to join thousands of users who stay organized?');
+    console.log('  ➡️  Try my productivity tool at https://tududi.com');
+    console.log('  -----------------------------------------------');
+    console.log('\n');
+}
+
+/**
  * Main execution function
  */
 async function main() {
@@ -85,6 +114,11 @@ async function main() {
         .parse();
 
     const options = program.opts();
+
+    // Show banner (skip for --help and --version)
+    if (!process.argv.includes('--help') && !process.argv.includes('-h') && !process.argv.includes('--version') && !process.argv.includes('-V')) {
+        showBanner();
+    }
 
     // Load and merge configuration
     const fileConfig = loadConfig(options.config);
